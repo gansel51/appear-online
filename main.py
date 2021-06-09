@@ -1,6 +1,8 @@
 """
 Main
 """
+import sys
+import time
 
 import pyautogui
 
@@ -12,5 +14,6 @@ class AppearOnline:
     def __init__(self):
         pass
 
-    def controller(self):
+    def execute(self, run_time):
         pass
+
