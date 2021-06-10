@@ -25,6 +25,7 @@ _This project has released a beta version but is still actively being improved._
 
 Once this project is installed locally, navegate to the root of the project and use the command line `python controller.py --runtime X`, where `X` is the intended runtime (in minutes). The runtime command line argument is optional, and the time will default to one hour if not specified.
 
+Like this project? [Show your support!](https://www.buymeacoffee.com/gansel51)
 ## License
 
 This project is made available under the MIT license. No warranty is provided for users of this product, nor are the authors liable for any issues arising from the use of this project. See the license for more information and fair usage information.
