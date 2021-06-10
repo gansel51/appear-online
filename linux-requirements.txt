@@ -1,2 +1,2 @@
-requirements.txt
+-r requirements.txt
 mouse==0.7.1S

@@ -1,1 +1,1 @@
-pyobjc-framework-Quartz==7.3S
+pyobjc-framework-Quartz==7.3
