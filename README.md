@@ -7,7 +7,7 @@
 ![maintained](https://img.shields.io/maintenance/yes/2021)
 ![maintainer](https://img.shields.io/badge/Maintainer-gansel51-informational)
 
-The appear online repository is a usable script to run when you step away from your computer. From going to the bathroom to running errands, there are many reason why people may step away from their computer but don't want their computer to turn off. Appear Online simulates mouse movement and keyboard usage to keep your computer appearing active! Users of Microsoft Teams will appear available during the use of this project.
+The AppearOnline project is intended to be run when you step away from your computer. From going to the bathroom to running errands, there are many reason why people may step away from their computer but don't want their computer to turn off or show that they are away. AppearOnline simulates mouse movement and keyboard usage to keep your computer appearing active! Users of Microsoft Teams will appear available while this program is running.
 
 ## Installation
 
@@ -22,6 +22,10 @@ The requirements for use are included in the `requirements.txt` file. The comman
 ### MacOS
 
 The requirements for use are included in the `mac-requirements.txt` file. MacOS users may need to install each requirement in the specified order using the command `pip install X`, where `X` is the requirement. Finding a workaround to improve ease of use on MacOS is high priority for the project maintainers.
+
+During the first run of this project, MacOS users may be prompted to allow accesibility access to their IDE or terminal. For this project to work, accessibility must be granted.
+
+
 ## Use
 
 _This project has released a beta version but is still actively being improved._
