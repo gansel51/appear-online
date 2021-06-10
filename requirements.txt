@@ -1,2 +1,0 @@
-pyobjc-framework-Quartz==7.3
-mouse==0.7.1
