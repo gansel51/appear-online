@@ -2,8 +2,8 @@
 
 # AppearOnline
 
-![GitHub last commit](https://img.shields.io/github/last-commit/gansel51/appear-online)
 ![maintained](https://img.shields.io/maintenance/yes/2021)
+![GitHub last commit](https://img.shields.io/github/last-commit/gansel51/appear-online)
 ![maintainer](https://img.shields.io/badge/Maintainer-gansel51-informational)
 
 The AppearOnline project is intended to be run when you step away from your computer. From going to the bathroom to running errands, there are many reason why people may step away from their computer but don't want their computer to turn off or show that they are away. AppearOnline simulates mouse movement and keyboard usage to keep your computer appearing active! Users of Microsoft Teams will appear available while this program is running.
