@@ -17,7 +17,7 @@ class AppearOnline:
         time.sleep(60)
         return True
 
-    def execute(self, run_time: int = 300):
+    def execute(self, run_time: int = 60):
         runtime_counter = 0
         while run_time > runtime_counter:
             mouse.press(button='left')

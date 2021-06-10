@@ -5,24 +5,27 @@
 ![maintained](https://img.shields.io/maintenance/yes/2021)
 ![maintainer](https://img.shields.io/badge/Maintainer-gansel51-informational)
 
-The appear online repository is a usable script to run when you step away from your computer. From going to the bathroom to running errands, there are many reason why people may step away from their computer but don't want their computer to turn off. Appear Online simulates mouse movement and keyboard usage to keep your computer appearing active!
-
-## Supported Operating Systens
-
-At this time, AppearOnline is only available to Windows and Linux users. MacOS is not supported in the beta version.
+The appear online repository is a usable script to run when you step away from your computer. From going to the bathroom to running errands, there are many reason why people may step away from their computer but don't want their computer to turn off. Appear Online simulates mouse movement and keyboard usage to keep your computer appearing active! Users of Microsoft Teams will appear available during the use of this project.
 
 ## Installation
 
-Installation is available via releases or by cloning the project using the command `git clone https://github.com/gansel51/appear-online.git`.
+Installation is available via GitHub releases or by cloning the project using the command `git clone https://github.com/gansel51/appear-online.git`.
 
 ## Requirements
 
-## Windows or Linux
+### Windows or Linux
+
 The requirements for use are included in the `requirements.txt` file. The command `pip install -r requirements.txt` from the root of the project will install all necessary python libraries in the current environment.
 
+### MacOS
 
+The requirements for use are included in the `mac-requirements.txt` file. MacOS users may need to install each requirement in the specified order using the command `pip install X`, where `X` is the requirement. Finding a workaround to improve ease of use on MacOS is high priority for the project maintainers.
 ## Use
 
-_This project is still being completed and is not available for stable use._
+_This project has released a beta version but is still actively being improved._
 
-Once this project is installed locally, navegate to the root of the project and use the command line `python controller.py --runtime X`, where `X` is the intended runtime. The runtime command line argument is optional, and the time will default to 5 hours if not specified.
+Once this project is installed locally, navegate to the root of the project and use the command line `python controller.py --runtime X`, where `X` is the intended runtime (in minutes). The runtime command line argument is optional, and the time will default to one hour if not specified.
+
+## License
+
+This project is made available under the MIT license. No warranty is provided for users of this product, nor are the authors liable for any issues arising from the use of this project. See the license for more information and fair usage information.
