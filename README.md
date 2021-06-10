@@ -14,16 +14,10 @@ Installation is available via GitHub releases or by cloning the project using th
 
 ## Requirements
 
-### Windows or Linux
+Users should install the requirements by installing their operating system's `requirements.txt` file. This can be done via the command `pip install -r mac-requirements.txt`. Supported operating systems are MacOS, Windows, and Linux.
+### MacOS Security and Privacy Settings
 
-The requirements for use are included in the `requirements.txt` file. The command `pip install -r requirements.txt` from the root of the project will install all necessary python libraries in the current environment.
-
-### MacOS
-
-The requirements for use are included in the `mac-requirements.txt` file. MacOS users may need to install each requirement in the specified order using the command `pip install X`, where `X` is the requirement. Finding a workaround to improve ease of use on MacOS is high priority for the project maintainers.
-
-During the first run of this project, MacOS users may be prompted to allow accesibility access to their IDE or terminal. For this project to work, accessibility must be granted.
-
+MacOS users may initially be prompted to allow accesibility access to their IDE or terminal. For this project to work, accessibility must be granted. To do so, go to System Preferences -> Security & Privacy -> Accessibility and add the IDE or terminal you are using to run the program. This will only need to be done once per application used.
 
 ## Use
 
