@@ -16,3 +16,6 @@ def main():
     """
     AO = AppearOnline()
     AO.execute(run_time) if (run_time is not None) else AO.execute()
+
+if __name__=="__main__":
+    main()

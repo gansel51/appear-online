@@ -14,7 +14,7 @@ setup(
     description="Appear Online in Microsoft Teams",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/realpython/reader",
+    url="https://github.com/gansel51/appear-online",
     author="Griffin Ansel",
     author_email="griffin.ansel@gmail.com",
     license="MIT",
@@ -23,12 +23,12 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["appearonline"],
+    packages=["appear_online"],
     include_package_data=True,
     install_requires=["pyobjc-framework-Quartz==7.3",
                       'mouse==0.7.1 ; platform_system=="Windows"',
                       'mouse==0.7.1 ; platform_system=="Linux"',
-                      'git+https://github.com/boppreh/mouse.git ; platform_system=="Darwin"'],
+                      'mouse @ git+ssh://git@github.com/boppreh/mouse.git ; platform_system=="Darwin"'],
     entry_points={
         "console_scripts": [
             "ao=appear_online.__main__:main",
