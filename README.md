@@ -9,7 +9,9 @@ The appear online repository is a usable script to run when you step away from y
 
 ## Installation
 
-Installation is available via releases or by cloning the project using the command `git clone https://github.com/gansel51/appear-online.git`.
+Installation is available via releases or by cloning the project using the command:
+`git clone https://github.com/gansel51/appear-online.git`.
+
 ## Requirements
 
 The requirements for use are included in the `requirements.txt` file. The command `pip install -r requirements.txt` from the root of the project will install all necessary python libraries in the current environment.
