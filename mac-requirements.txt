@@ -1,2 +1,2 @@
-pyobjc-framework-Quartz==7.3
+requirements.txt
 git+https://github.com/boppreh/mouse.git
