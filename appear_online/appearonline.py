@@ -25,6 +25,3 @@ class AppearOnline:
             minute = self.minute_passed()
             if minute:
                 runtime_counter += 1
-
-
-
