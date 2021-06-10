@@ -3,7 +3,6 @@
 # AppearOnline
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/gansel51/appear-online)
-![visitors](https://pageview.vercel.app/?github_user=gansel51)
 ![maintained](https://img.shields.io/maintenance/yes/2021)
 ![maintainer](https://img.shields.io/badge/Maintainer-gansel51-informational)
 
