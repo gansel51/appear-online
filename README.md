@@ -7,6 +7,10 @@
 
 The appear online repository is a usable script to run when you step away from your computer. From going to the bathroom to running errands, there are many reason why people may step away from their computer but don't want their computer to turn off. Appear Online simulates mouse movement and keyboard usage to keep your computer appearing active!
 
+## Supported Operating Systens
+
+At this time, AppearOnline is only available to Windows and Linux users. MacOS is not supported in the beta version.
+
 ## Installation
 
 Installation is available via releases or by cloning the project using the command `git clone https://github.com/gansel51/appear-online.git`.
