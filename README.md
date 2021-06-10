@@ -15,7 +15,7 @@ Installation is available via releases or by cloning the project using the comma
 
 The requirements for use are included in the `requirements.txt` file. The command `pip install -r requirements.txt` from the root of the project will install all necessary python libraries in the current environment.
 
-_Warning: the current dependencies are not building properly, so AppearOnline will not function as anticipated.
+_Warning: the current dependencies are not building properly, so AppearOnline will not function as anticipated._
 
 ## Use
 
