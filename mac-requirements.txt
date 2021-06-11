@@ -1,2 +1,2 @@
 -r requirements.txt
-git+https://github.com/boppreh/mouse.git
+macmouse==0.7.3
