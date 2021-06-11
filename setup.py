@@ -35,7 +35,7 @@ setup(
     install_requires=["pyobjc-framework-Quartz==7.3",
                       'mouse==0.7.1 ; platform_system=="Windows"',
                       'mouse==0.7.1 ; platform_system=="Linux"',
-                      'macmouse==0.7.3 ; platform_system=="Darwin"'],
+                      'macmouse==0.7.4 ; platform_system=="Darwin"'],
     entry_points={
         "console_scripts": [
             "appearonline=appearonline.__main__:main",

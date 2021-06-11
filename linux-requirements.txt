@@ -1,4 +1,2 @@
---index-url https://pypi.org/simple
-
-pyobjc-framework-Quartz==7.3
+-r requirements.txt
 mouse==0.7.1

@@ -22,7 +22,7 @@ Installation is available via GitHub releases or by cloning the project using th
 
 ## Supported Operating Systems
 
-This package is currently supporting MacOS.
+This package is currently supporting MacOS. Adding support for Windows and Linux systems remains the top priority for the package maintainers.
 
 ## Requirements
 
