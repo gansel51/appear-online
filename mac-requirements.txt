@@ -1,2 +1,2 @@
 -r requirements.txt
-macmouse==0.7.3
+macmouse==0.7.4
