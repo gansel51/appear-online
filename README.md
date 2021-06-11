@@ -22,11 +22,13 @@ Installation is available via GitHub releases or by cloning the project using th
 
 ## Supported Operating Systems
 
-This package is currently supporting MacOS. Adding support for Windows and Linux systems remains the top priority for the package maintainers.
+The PyPI installation of this package is currently only supporting MacOS. Adding support for Windows and Linux systems remains the top priority for the package maintainers. However, Windows and Linux users can install this project from GitHub.
 
 ## Requirements
 
-Users should install the requirements by installing their operating system's `requirements.txt` file. This can be done via the command `pip install -r mac-requirements.txt`. Supported operating systems are MacOS, Windows, and Linux.
+Users that install from PyPI via `pip install appearonline` will have the dependent libraries downloaded automatically.
+
+Users that dowload this package via GitHub should install the requirements by installing their operating system's `requirements.txt` file. This can be done via the command `pip install -r mac-requirements.txt`. Supported operating systems are MacOS, Windows, and Linux.
 
 ### MacOS Security and Privacy Settings
 
