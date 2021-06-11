@@ -7,7 +7,7 @@ import argparse
 from appearonline import AppearOnline
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--runtime', required=False, type=int, help='Please specify the time for AppearOnline to run.')
+parser.add_argument('--runtime', required=False, type=int, help='Please specify the minutes for AppearOnline to run.')
 run_time = parser.parse_args().runtime
 
 def main():

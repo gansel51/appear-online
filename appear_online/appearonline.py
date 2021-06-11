@@ -3,7 +3,8 @@ Main
 """
 import time
 
-import mouse
+import macmouse as mouse
+
 
 class AppearOnline:
     """
@@ -20,6 +21,8 @@ class AppearOnline:
     def execute(self, run_time: int = 60):
         runtime_counter = 0
         while run_time > runtime_counter:
+            if mouse.is_pressed(button='q'):
+                break
             mouse.press(button='left')
             mouse.release(button='left')
             minute = self.minute_passed()
