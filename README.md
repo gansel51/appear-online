@@ -34,7 +34,11 @@ MacOS users may initially be prompted to allow accesibility access to their IDE 
 
 ## Use
 
-If installed from PyPI, use the command `appearonline --runtime X` where `X` is the number of minutes for the program to run. This parameter is optional, and will default to 60 minutes if not specified.
+If installed from PyPi, use the command `appearonline --runtime X` where `X` is the number of minutes for the program to run. This parameter is optional, and will default to 60 minutes if not specified.
+
+If installed from GitHub, use the command `python __main__.py --runtime X` where `X` is the number of minutes for the program to run. As above, this parameter is optional and will default to 60 minutes when not specified.
+
+To quit the package before the runtime has expired, use the keyboard interrupt `ctrl + c`.
 
 Like this project? [Show your support!](https://www.buymeacoffee.com/gansel51)
 ## License
