@@ -1,1 +1,3 @@
+--index-url https://pypi.org/simple
+
 pyobjc-framework-Quartz==7.3

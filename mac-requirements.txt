@@ -1,2 +1,4 @@
+--index-url https://pypi.org/simple
+
 -r requirements.txt
 macmouse==0.7.4
