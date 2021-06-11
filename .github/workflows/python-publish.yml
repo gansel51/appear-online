@@ -15,9 +15,9 @@ jobs:
           - os: macos-latest
             REQS: 'mac-requirements.txt'
           - os: ubuntu-latest
-            REQS: `linux-requirements.txt`
+            REQS: 'linux-requirements.txt'
           - os: windows-latest
-            REQS: `windows-requirements.txt`
+            REQS: 'windows-requirements.txt'
 
     steps:
     - uses: actions/checkout@v2
