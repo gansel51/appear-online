@@ -16,12 +16,14 @@ jobs:
     strategy:
       matrix:
         python_version: [3.7, 3.8]
-        os: ubuntu-latest
-          - REQS: 'linux-requirements.txt'
-        os: macos-latest
-          - REQS: 'mac-requirements.txt'
-        os: windows-latest
-          - REQS: 'windows-requirements.txt'
+        include:
+          - os: macos-latest
+            REQS: 'mac-requirements.txt'
+          - os: windows-latest
+            REQS: 'windows-requirements.txt'
+          - os: ubuntu-latest
+            REQS: 'linux-requirements.txt'
+
     steps:
     - name: 'Checkout GitHub Action'
       uses: actions/checkout@main
