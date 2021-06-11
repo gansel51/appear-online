@@ -20,9 +20,6 @@ jobs:
           - os: macos-latest
             REQS: 'mac-requirements.txt'
           - os: windows-latest
-            REQS: 'windows-requirements.txt'
-          - os: ubuntu-18.04
-            REQS: 'linux-requirements.txt'
 
     steps:
     - name: 'Checkout GitHub Action'
