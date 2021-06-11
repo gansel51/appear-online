@@ -21,7 +21,7 @@ jobs:
             REQS: 'mac-requirements.txt'
           - os: windows-latest
             REQS: 'windows-requirements.txt'
-          - os: ubuntu-latest
+          - os: ubuntu-18.04
             REQS: 'linux-requirements.txt'
 
     steps:
