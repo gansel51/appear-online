@@ -18,11 +18,11 @@ jobs:
         os: ['ubuntu-latest', 'macos-latest', 'windows-latest']
         python_version: [3.7, 3.8]
         os: ubuntu-latest
-          - REQS: linux-requirements.txt
+          - REQS: 'linux-requirements.txt'
         os: macos-latest
-          - REQS: mac-requirements.txt
+          - REQS: 'mac-requirements.txt'
         os: windows-latest
-          - REQS: windows-requirements.txt
+          - REQS: 'windows-requirements.txt'
     steps:
     - name: 'Checkout GitHub Action'
       uses: actions/checkout@main
