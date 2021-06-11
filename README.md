@@ -10,6 +10,12 @@ The AppearOnline project is intended to be run when you step away from your comp
 
 ## Installation
 
+### PyPi
+
+Installation is available via PyPi using `pip install appearonline`.
+
+### GitHub
+
 Installation is available via GitHub releases or by cloning the project using the command `git clone https://github.com/gansel51/appear-online.git`.
 
 ## Requirements
@@ -23,7 +29,9 @@ MacOS users may initially be prompted to allow accesibility access to their IDE 
 
 _This project has released a beta version but is still actively being improved._
 
-Once this project is installed locally, navegate to the root of the project and use the command line `python controller.py --runtime X`, where `X` is the intended runtime (in minutes). The runtime command line argument is optional, and the time will default to one hour if not specified.
+If installed from PyPi, use the command `appearonline --runtime X` where `X` is the number of minutes fir the program to run. This parameter is optional, and will default to 60 minutes if not specified.
+
+To quit the package, press the 'q' key on your keyboard.
 
 Like this project? [Show your support!](https://www.buymeacoffee.com/gansel51)
 ## License

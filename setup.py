@@ -7,9 +7,8 @@ HERE = pathlib.Path(__file__).parent
 # The text of the README file
 README = (HERE / "README.md").read_text()
 
-# This call to setup() does all the work
 setup(
-    name="AppearOnline",
+    name="appearonline",
     version="1.0.0",
     description="Appear Online in Microsoft Teams",
     long_description=README,
@@ -31,7 +30,7 @@ setup(
                       'macmouse==0.7.3 ; platform_system=="Darwin"'],
     entry_points={
         "console_scripts": [
-            "ao=appear_online.__main__:main",
+            "appearonline=appear_online.__main__:main",
         ]
     },
 )
