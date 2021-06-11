@@ -19,7 +19,6 @@ jobs:
         include:
           - os: macos-latest
             REQS: 'mac-requirements.txt'
-          - os: windows-latest
 
     steps:
     - name: 'Checkout GitHub Action'
