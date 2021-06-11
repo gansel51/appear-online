@@ -1,7 +1,7 @@
 <img width="281" alt="available" src="https://user-images.githubusercontent.com/59709552/121570145-96d76f80-c9ef-11eb-8e09-76e0983f7af8.png">
 
 # AppearOnline
-
+![version](https://img.shields.io/pypi/v/AppearOnline)
 ![maintained](https://img.shields.io/maintenance/yes/2021)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gansel51/appear-online)
 ![maintainer](https://img.shields.io/badge/Maintainer-gansel51-informational)
