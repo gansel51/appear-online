@@ -27,11 +27,9 @@ MacOS users may initially be prompted to allow accesibility access to their IDE 
 
 ## Use
 
-_This project has released a beta version but is still actively being improved._
-
 If installed from PyPi, use the command `appearonline --runtime X` where `X` is the number of minutes fir the program to run. This parameter is optional, and will default to 60 minutes if not specified.
 
-To quit the package, press the 'q' key on your keyboard.
+To quit the package, use the keyboard interrupt of `ctrl + c`.
 
 Like this project? [Show your support!](https://www.buymeacoffee.com/gansel51)
 ## License
