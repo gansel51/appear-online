@@ -18,7 +18,7 @@ Installation is available via PyPI using `pip install appearonline`.
 
 ### GitHub
 
-Installation is available via GitHub releases or by cloning the project using the command `git clone https://github.com/gansel51/appear-online.git`.
+Installation is available 2 ways via GitHub releases or by cloning the project using the command `git clone https://github.com/gansel51/appear-online.git`.
 
 ## Supported Operating Systems
 
