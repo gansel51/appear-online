@@ -3,7 +3,7 @@ Main
 """
 import time
 
-import mouse
+import macmouse as mouse
 
 
 class AppearOn:

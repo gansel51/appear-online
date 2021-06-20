@@ -22,7 +22,7 @@ Installation is available 2 ways via GitHub releases or by cloning the project u
 
 ## Supported Operating Systems
 
-The PyPI installation of this package is currently only supporting MacOS. Adding support for Windows and Linux systems remains the top priority for the package maintainers. However, Windows and Linux users can install this project from GitHub.
+The PyPI installation of this package is currently only supporting MacOS and WindowsOS. Adding support for Linux systems remains a top priority for the package maintainers. However, Windows and Linux users can install this project from GitHub.
 
 ## Requirements
 
