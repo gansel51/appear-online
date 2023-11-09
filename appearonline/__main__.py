@@ -7,8 +7,9 @@ import argparse
 from appearonline import AppearOn
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--runtime', required=False, type=int, help='Please specify the minutes for AppearOnline to run.')
+parser.add_argument("--runtime", required=False, type=int, help="Please specify the minutes for AppearOnline to run.")
 run_time = parser.parse_args().runtime
+
 
 def main():
     """
@@ -17,5 +18,6 @@ def main():
     AO = AppearOn()
     AO.execute(run_time) if (run_time is not None) else AO.execute()
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()

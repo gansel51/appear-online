@@ -1,3 +1,5 @@
 --index-url https://pypi.org/simple
 
-pyobjc-framework-Quartz==7.3
+pip install pyobjc-core==8.0b1
+pip install pyobjc-framework-Cocoa==8.0b1
+pip install pyobjc-framework-Quartz==8.0b1
